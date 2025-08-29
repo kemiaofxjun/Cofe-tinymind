@@ -1,5 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card'
-import { FaGithub, FaLinkedin, FaPodcast, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaPodcast, FaTwitter, FaTelegramPlane } from 'react-icons/fa'
 
 import Image from 'next/image'
 import Link from 'next/link'
@@ -80,6 +80,14 @@ export const StatusCard = ({
                   title='LinkedIn'
                   icon={<FaLinkedin size={16} />}
                   label='LinkedIn'
+                />
+              )}
+              {links['t.me'] && (
+                <SocialLink
+                  href={links['t.me']}
+                  title='Telegram'
+                  icon={<FaTelegramPlane size={16} />}
+                  label='telegram'
                 />
               )}
               {links['xiaohongshu.com'] && (

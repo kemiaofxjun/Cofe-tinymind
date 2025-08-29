@@ -1,19 +1,20 @@
 {
-  "title": "Minghe's Blog",
-  "description": "Minghe's personal blog sharing travel experiences across Europe and Asia, tech insights, and daily thoughts. Built with GitHub-powered markdown writing.",
+  "title": "喵洛阁",
+  "description": "克喵的个人博客.",
   "author": {
-    "name": "Minghe",
-    "bio": "Software engineer and travel enthusiast sharing experiences from around the world",
-    "location": "Europe/Asia"
+    "name": "克喵爱吃卤面",
+    "bio": "愿你看轻一切真相后，依旧热爱你的家人和朋友。",
+    "location": "Asia/Jiangsu"
   },
-  "keywords": ["travel", "tech", "blog", "europe", "asia", "software", "programming"],
+  "keywords": ["memos", "tech", "blog", "europe", "asia", "software", "programming"],
   "social": {
-    "github": "metrue",
-    "twitter": "_metrue"
+    "github": "kemiaofxjun",
+    "twitter": "kemiaofxjun"
   },
   "links": {
-    "github.com": "http://github.com/metrue",
+    "github.com": "http://github.com/kemiaofxjun",
     "x.com": "https://x.com/_metrue",
+    "t.me": "https://t.me/KemiaoJun",
     "linkedin.com": "https://www.linkedin.com/in/huang-minghe-41ab563a",
     "xiaohongshu.com": "https://www.xiaohongshu.com/user/profile/584ac1216a6a6968d037c0a4e",
     "podcasts.apple.com": "https://podcasts.apple.com/nl/podcast/%E8%A5%BF%E6%9F%9A%E8%AF%BE%E9%97%B4/id1787276981",
