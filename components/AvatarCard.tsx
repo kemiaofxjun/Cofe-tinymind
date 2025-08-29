@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaPodcast, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaPodcast, FaTwitter, FaTelegramPlane } from 'react-icons/fa'
 
 import { CardContent } from '@/components/ui/card'
 import Image from 'next/image'
@@ -46,6 +46,19 @@ export const AvatarCard = ({ name, links }: { name: string; links: Record<string
               >
                 <FaTwitter size={16} />
                 <span className='sr-only'>X (Twitter)</span>
+              </a>
+            )}
+          
+            {links['t.me'] && (
+              <a
+                href={links['t.me']}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-gray-500 hover:text-gray-700 transition-colors p-1.5 m-auto'
+                title='telegram'
+              >
+                <FaTelegramPlane size={16} />
+                <span className='sr-only'>Telegram</span>
               </a>
             )}
 
